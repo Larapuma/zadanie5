@@ -1,0 +1,78 @@
+html{
+    width: 100%;
+    height: 70%;
+}
+h1{
+    font-size: 65px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #095c80;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Comic Sans MS', monospace;
+}
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+input[type="number"]::-webkit-inner-spin-button{display:none;}
+form input {/*asdasdasdasdjasdjqwdl,qw,d*/
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #9E9C9C;
+    font-family: 'Comic Sans MS', monospace;
+}
+input:focus {
+    border: 2px solid #777777;
+    transition: 0.5s;
+    width: 310px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: #095c80;
+    width: 900px;
+    height: 1000px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    row-gap: 5px;
+}
+label{
+    font-weight: bold;
+    font-family: 'Comic Sans MS', monospace;
+}
+button {
+    font-family: 'Comic Sans MS', monospace;
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(212,75,56); 
+    padding: .7em 1.5em; 
+    outline: none; 
+}
+button:hover{
+    opacity: 1;
+}
